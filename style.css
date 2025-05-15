@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   height: 100vh;
-  background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e'); /* image de plage */
+  background-image: url('https://i.imgur.com/xZ1Zp3G.jpg'); /* Faux fond style Facebook */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,36 +19,36 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* assombrir légèrement */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .content {
   position: relative;
   z-index: 1;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.95);
   padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 h1 {
-  font-size: 22px;
-  color: #333;
+  font-size: 20px;
+  color: #1c1e21;
   margin-bottom: 20px;
 }
 
 button {
-  padding: 12px 28px;
+  padding: 12px 24px;
   font-size: 16px;
-  background-color: #2196f3;
+  background-color: #1877f2;
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #0b7dda;
+  background-color: #145dbf;
 }
