@@ -2,12 +2,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #f0f2f5;
-  background-image: url('https://raw.githubusercontent.com/AnsonHappens/facebook-style-bg/main/fb-login-bg.jpg'); /* Image fond Facebook */
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e'); /* image de plage */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +19,7 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* assombrit */
+  background-color: rgba(0, 0, 0, 0.5); /* assombrir légèrement */
 }
 
 .content {
@@ -30,19 +29,19 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
 
 h1 {
   font-size: 22px;
-  color: #1c1e21;
+  color: #333;
   margin-bottom: 20px;
 }
 
 button {
   padding: 12px 28px;
   font-size: 16px;
-  background-color: #1877f2;
+  background-color: #2196f3;
   color: white;
   border: none;
   border-radius: 8px;
@@ -51,5 +50,5 @@ button {
 }
 
 button:hover {
-  background-color: #145dbf;
+  background-color: #0b7dda;
 }
